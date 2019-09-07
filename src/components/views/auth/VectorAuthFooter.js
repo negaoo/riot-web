@@ -31,9 +31,11 @@ module.exports = React.createClass({
     render: function() {
         const brandingConfig = SdkConfig.get().branding;
         let links = [
-            {"text": "blog", "url": "https://medium.com/@RiotChat"},
-            {"text": "twitter", "url": "https://twitter.com/@RiotChat"},
-            {"text": "github", "url": "https://github.com/vector-im/riot-web"},
+            {"text": "boonchat.xyz", "url": "https://boonchat.xyz/@negao"},
+            {"text": "misskey.io", "url": "https://misskey.io/@negao"},
+            {"text": "github", "url": "https://github.com/negaoo/riot-web"},
+            {"text": "matrix-jp.net", "url": "https://matrix-jp.net"},
+	    {"text": "wiki", "url": "https://wiki.matrix-jp.net"},
         ];
 
         if (brandingConfig && brandingConfig.authFooterLinks) {
